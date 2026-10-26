@@ -1,0 +1,333 @@
+:root {
+    --primary-color: #d63384;
+    --soft-pink: #fce4ec;
+    --dark-pink: #880e4f;
+    --text-color: #4a4a4a;
+    --theme-wine: #832a4e;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    background-color: #fcf6f8;
+    overflow-x: hidden;
+}
+
+.font_serif {
+    font-family: 'Great Vibes', cursive;
+}
+
+.font_cursive {
+    font-family: 'Sacramento', cursive;
+}
+
+.text_justify {
+    text-align: justify;
+}
+
+#cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(253, 226, 236, 0.85)), url('cover.jpg') center/cover no-repeat;
+    z-index: 9999;
+    transition: transform 0.8s ease-in-out;
+}
+
+#cover.hidden {
+    transform: translateY(-100%);
+}
+
+.main_container {
+    min-height: 100vh;
+}
+
+.right_content {
+    background: #fff8fa;
+    padding: 3rem 1.5rem;
+    min-height: 100vh;
+    position: relative;
+}
+
+.img_arch_frame {
+    width: 280px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 180px 180px 20px 20px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 10px 25px rgba(214, 51, 132, 0.15);
+    background-color: #fce4ec;
+}
+
+/* Style Bingkai Lengkung / Arch Profile sesuai gambar referensi */
+.img_arch_profile {
+    width: 260px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 130px 130px 20px 20px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 10px 20px rgba(131, 42, 78, 0.15);
+    background-color: #fce4ec;
+}
+
+.btn_ig {
+    width: 36px;
+    height: 36px;
+    background-color: #e88ca8;
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 3px 8px rgba(232, 140, 168, 0.4);
+    transition: transform 0.2s ease;
+}
+
+.btn_ig:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.countdown_box_soft {
+    background: #e88ca8;
+    color: white;
+    border-radius: 18px;
+    padding: 12px 8px;
+    width: 72px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(232, 140, 168, 0.3);
+}
+
+.countdown_box_soft span {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.countdown_box_soft small {
+    font-size: 0.75rem;
+}
+
+.title_names {
+    color: var(--theme-wine);
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+.name_single {
+    color: var(--theme-wine);
+    font-size: 3.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.desc_parents {
+    color: var(--theme-wine);
+    font-size: 0.95rem;
+}
+
+.date_sub {
+    letter-spacing: 3px;
+    color: var(--theme-wine);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.music_btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    animation: spin 4s linear infinite;
+}
+
+.music_btn.paused {
+    animation-play-state: paused;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+.section_clean {
+    margin-bottom: 4rem;
+}:root {
+    --primary-color: #d63384;
+    --soft-pink: #fce4ec;
+    --dark-pink: #880e4f;
+    --text-color: #4a4a4a;
+    --theme-wine: #832a4e;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    background-color: #fcf6f8;
+    overflow-x: hidden;
+}
+
+.font_serif {
+    font-family: 'Great Vibes', cursive;
+}
+
+.font_cursive {
+    font-family: 'Sacramento', cursive;
+}
+
+.text_justify {
+    text-align: justify;
+}
+
+#cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(253, 226, 236, 0.85)), url('cover.jpg') center/cover no-repeat;
+    z-index: 9999;
+    transition: transform 0.8s ease-in-out;
+}
+
+#cover.hidden {
+    transform: translateY(-100%);
+}
+
+.main_container {
+    min-height: 100vh;
+}
+
+.right_content {
+    background: #fff8fa;
+    padding: 3rem 1.5rem;
+    min-height: 100vh;
+    position: relative;
+}
+
+.img_arch_frame {
+    width: 280px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 180px 180px 20px 20px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 10px 25px rgba(214, 51, 132, 0.15);
+    background-color: #fce4ec;
+}
+
+/* Style Bingkai Lengkung / Arch Profile sesuai gambar referensi */
+.img_arch_profile {
+    width: 260px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 130px 130px 20px 20px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 10px 20px rgba(131, 42, 78, 0.15);
+    background-color: #fce4ec;
+}
+
+.btn_ig {
+    width: 36px;
+    height: 36px;
+    background-color: #e88ca8;
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 3px 8px rgba(232, 140, 168, 0.4);
+    transition: transform 0.2s ease;
+}
+
+.btn_ig:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.countdown_box_soft {
+    background: #e88ca8;
+    color: white;
+    border-radius: 18px;
+    padding: 12px 8px;
+    width: 72px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(232, 140, 168, 0.3);
+}
+
+.countdown_box_soft span {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.countdown_box_soft small {
+    font-size: 0.75rem;
+}
+
+.title_names {
+    color: var(--theme-wine);
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+.name_single {
+    color: var(--theme-wine);
+    font-size: 3.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.desc_parents {
+    color: var(--theme-wine);
+    font-size: 0.95rem;
+}
+
+.date_sub {
+    letter-spacing: 3px;
+    color: var(--theme-wine);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.music_btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    animation: spin 4s linear infinite;
+}
+
+.music_btn.paused {
+    animation-play-state: paused;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+.section_clean {
+    margin-bottom: 4rem;
+}
